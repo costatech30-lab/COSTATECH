@@ -25,3 +25,11 @@ h2{font-size:27px;line-height:1.25;margin:6px 0 10px}.intro{max-width:620px;font
   border-radius: 18px;
   display: block;
 }
+.logo-image {
+  width: 100px;
+  height: 55px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  display: block;
+}
