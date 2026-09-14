@@ -33,3 +33,10 @@ h2{font-size:27px;line-height:1.25;margin:6px 0 10px}.intro{max-width:620px;font
   border-radius: 8px;
   display: block;
 }
+/* Correction du chevauchement dans Développement personnel */
+.personal .note {
+  position: static;
+  display: block;
+  margin: 20px auto 30px;
+  text-align: center;
+}
