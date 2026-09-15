@@ -447,3 +447,8 @@ h2{font-size:27px;line-height:1.25;margin:6px 0 10px}.intro{max-width:620px;font
     font-size: 8px;
   }
 }
+@media (max-width: 800px) {
+  .header nav {
+    display: none;
+  }
+}
