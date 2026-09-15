@@ -353,3 +353,27 @@ h2{font-size:27px;line-height:1.25;margin:6px 0 10px}.intro{max-width:620px;font
     padding: 20px;
   }
 }
+.journee-image {
+  max-width: 800px;
+  margin: 0 auto 45px;
+  text-align: center;
+}
+
+.journee-image img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 18px;
+}
+
+@media (max-width: 600px) {
+  .journee-image {
+    margin-bottom: 30px;
+  }
+
+  .journee-image img {
+    border-radius: 14px;
+  }
+}
