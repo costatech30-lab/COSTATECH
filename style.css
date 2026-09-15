@@ -452,3 +452,46 @@ h2{font-size:27px;line-height:1.25;margin:6px 0 10px}.intro{max-width:620px;font
     display: none;
   }
 }
+/* ================================
+   MENU MOBILE PROPRE
+================================ */
+
+@media (max-width: 800px) {
+
+  .header {
+    height: 64px;
+    padding: 8px 5%;
+    align-items: center;
+  }
+
+  .header nav {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 0 !important;
+    margin-left: auto;
+  }
+
+  .header nav a {
+    display: none !important;
+  }
+
+  .header nav .nav-cta {
+    display: inline-flex !important;
+    padding: 9px 14px !important;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .header-logo {
+    width: 42px;
+    height: 42px;
+  }
+
+  .brand strong {
+    font-size: 15px;
+  }
+
+  .brand small {
+    font-size: 8px;
+  }
+}
