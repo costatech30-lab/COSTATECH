@@ -377,3 +377,73 @@ h2{font-size:27px;line-height:1.25;margin:6px 0 10px}.intro{max-width:620px;font
     border-radius: 14px;
   }
 }
+/* ================================
+   VERSION MOBILE – EN-TÊTE
+================================ */
+
+@media (max-width: 600px) {
+
+  .header {
+    height: 64px;
+    padding: 8px 4%;
+    align-items: center;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .header-logo {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    border-radius: 0;
+  }
+
+  .brand strong {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+
+  .brand small {
+    font-size: 8px;
+  }
+
+  .hero {
+    padding-top: 30px;
+  }
+
+  .hero h1 {
+    font-size: 27px;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 13px;
+  }
+
+  .hero-visual {
+    height: 280px;
+  }
+
+  .hero-visual img {
+    max-height: 280px;
+  }
+
+  .values {
+    margin-top: 25px;
+  }
+
+  .values div {
+    padding: 14px 16px;
+    font-size: 20px;
+  }
+
+  .values span {
+    font-size: 11px;
+  }
+
+  .values small {
+    font-size: 8px;
+  }
+}
