@@ -513,3 +513,25 @@ h2{font-size:27px;line-height:1.25;margin:6px 0 10px}.intro{max-width:620px;font
     margin-bottom: 15px;
   }
 }
+/* Cartes publics plus compactes */
+
+#publics .card {
+  padding: 22px 18px;
+  min-height: auto;
+}
+
+#publics .card h3 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+#publics .card p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  #publics .card {
+    padding: 18px 15px;
+  }
+}
